@@ -31,9 +31,8 @@
 
 		echo $scripts_for_layout;
 	?>
-        <script type="text/javascript" src="http://www.google.com/jsapi"></script>  
-        <script type="text/javascript">google.load("jquery", "1.6");</script>
-        <?php echo $this->Html->script('jquery');?>
+        <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+        <script type="text/javascript">google.load("jquery","1.6");</script>
 </head>
 <body>
 	<div id="container">
